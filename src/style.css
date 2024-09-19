@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    width: 470px;
+    margin: 50px auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 9px solid pink;
+}
+
+.intro img {
+    max-width: 450px;
+}
+
+.detail {
+    padding: 15px;
+}
+
+.detail h2 {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    color: deeppink;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.detail p {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 0 15px 15px;
+}
+
+.skills-list li {
+    border-radius: 5px;
+    padding: 10px 8px;
+    margin: 0 5px 10px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
