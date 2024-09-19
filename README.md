@@ -39,8 +39,7 @@ This is a simple React app that displays a profile card along with a list of ski
 │   └── index.html
 ├── src
 │   ├── index.js
-│   ├── style.css
-│   └── App.js
+│   └── style.css
 ├── .gitignore
 ├── package.json
 └── README.md
