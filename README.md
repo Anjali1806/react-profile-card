@@ -4,7 +4,8 @@ This is a simple React app that displays a profile card along with a list of ski
 
 ## Demo
 
-![Profile Card Demo](./screenshot.png)
+![image](https://github.com/user-attachments/assets/accdc86d-971e-4fcc-b41e-d25e63160c6e)
+
 
 ## Features
 
@@ -21,7 +22,7 @@ This is a simple React app that displays a profile card along with a list of ski
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/profile-card-react.git
+   git clone https://github.com/Anjali1806/react-profile-card.git
    cd profile-card-react
 
 2. **Install dependencies: Ensure you have Node.js installed, then run**:
@@ -33,7 +34,7 @@ This is a simple React app that displays a profile card along with a list of ski
     npm start
 
 ## Folder Structure
-.
+  ```bash
 ├── public
 │   └── index.html
 ├── src
@@ -43,8 +44,7 @@ This is a simple React app that displays a profile card along with a list of ski
 ├── .gitignore
 ├── package.json
 └── README.md
-
-
+```
 ## Component Breakdown
 **App.js**
 The main component that renders the profile and skills list.
@@ -54,7 +54,6 @@ This component displays the user’s profile image, name, and bio.
 
 **Skills Component**
 Renders a list of skills. Each skill has a proficiency level indicated with a corresponding emoji:
-
-**Beginner: 👶**
-**Intermediate: 👍**
-**Advanced: 💪**
+- Beginner: 👶
+- Intermediate: 👍
+- Advanced: 💪
